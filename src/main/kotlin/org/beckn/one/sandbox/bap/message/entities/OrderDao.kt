@@ -76,7 +76,8 @@ data class PolicyDao @Default constructor(
   val descriptor: DescriptorDao? = null,
   val time: TimeDao? = null,
 )
-data class OptionDao(
+
+data class OptionDao  @Default constructor(
   val id: String? = null,
   val descriptor: DescriptorDao? = null,
 )
